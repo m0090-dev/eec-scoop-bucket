@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/m0090-dev/eec/releases/download/v$version/eec-v$version-windows.zip",
+            "url": "https://github.com/m0090-dev/eec/releases/download/v1.0.1/eec-v1.0.1-windows.zip",
             "bin": ["eec.exe", "eec-deleter.exe"]
         }
     },
