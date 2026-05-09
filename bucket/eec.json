@@ -1,0 +1,19 @@
+{
+    "version": "1.0.1",
+    "description": "env-exec: Environment Execution Controller",
+    "homepage": "https://github.com/m0090-dev/eec",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/m0090-dev/eec/releases/download/v$version/eec-v$version-windows.zip",
+            "bin": ["eec.exe", "eec-deleter.exe"]
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/m0090-dev/eec/releases/download/v$version/eec-v$version-windows.zip"
+            }
+        }
+    }
+}
