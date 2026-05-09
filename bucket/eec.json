@@ -18,7 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/m0090-dev/eec/releases/download/v$version/eec-v$version-windows.zip"
+                "url": "https://github.com/m0090-dev/eec/releases/download/v$version/eec-v$version-windows.zip",
+		"hash": {
+                	"url": "$url.sha256"
+            	}
             }
         }
     }
