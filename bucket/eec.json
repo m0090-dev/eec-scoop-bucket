@@ -1,22 +1,21 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.6",
     "description": "env-exec: Environment Execution Controller",
     "homepage": "https://github.com/m0090-dev/eec",
     "license": "MIT",
     "checkver": {
         "github": "https://github.com/m0090-dev/eec"
     },
-    "post_install": [
-        "eec gen script --output \"$env:USERPROFILE\\scoop\\shims\""
-    ],
-    "pre_uninstall": [
-        "eec gen script --clean --output \"$env:USERPROFILE\\scoop\\shims\""
-    ],
+    "post_install": "eec gen script --output \"$env:USERPROFILE\\scoop\\shims\"",
+    "pre_uninstall": "eec gen script --clean --output \"$env:USERPROFILE\\scoop\\shims\"",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/m0090-dev/eec/releases/download/v1.0.1/eec-v1.0.1-windows.zip",
-            "hash": "e4408ffa52f8431b0daeab445e54aafbf5d5bfd36a75a77a36b8441b4d7a7387",
-            "bin": ["eec.exe", "eec-deleter.exe"]
+            "url": "https://github.com/m0090-dev/eec/releases/download/v1.0.6/eec-v1.0.6-windows.zip",
+            "hash": "9728efa9f89ec35e616bfd4706c00dd6b5f48e16b480127f859b3b89c4e7afc5",
+            "bin": [
+                "eec.exe",
+                "eec-deleter.exe"
+            ]
         }
     },
     "autoupdate": {
