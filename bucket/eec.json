@@ -1,5 +1,5 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "env-exec: Environment Execution Controller",
     "homepage": "https://github.com/m0090-dev/eec",
     "license": "MIT",
@@ -10,11 +10,9 @@
     "pre_uninstall": "eec gen script --clean --output \"$env:USERPROFILE\\scoop\\shims\"",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/m0090-dev/eec/releases/download/v2.1.0/eec-v2.1.0-windows.zip",
-            "hash": "f6212535012ef64377552d04ffc7b182179c1e5c88183c8d3086d9f71eea7dc1",
-            "bin": [
-                "eec.exe"
-            ]
+            "url": "https://github.com/m0090-dev/eec/releases/download/v2.1.1/eec-v2.1.1-windows.zip",
+            "hash": "0469a6d73187ca633408f03f273a0854b143d2ac791c4a1415e6b28cb8adf87b",
+            "bin": "eec.exe"
         }
     },
     "autoupdate": {
