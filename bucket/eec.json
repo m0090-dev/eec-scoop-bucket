@@ -13,8 +13,7 @@
             "url": "https://github.com/m0090-dev/eec/releases/download/v2.1.0/eec-v2.1.0-windows.zip",
             "hash": "f6212535012ef64377552d04ffc7b182179c1e5c88183c8d3086d9f71eea7dc1",
             "bin": [
-                "eec.exe",
-                "eec-deleter.exe"
+                "eec.exe"
             ]
         }
     },
